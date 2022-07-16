@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "c418records",
+  "id": "modid",
   "version": "${version}",
 
-  "name": "C418Records",
-  "description": "Adds Unused Minecraft Music as Discs",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "gravyarts"
+    "Me!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/icon.png",
+  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.gravyarts.c418records.C418Records"
+      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "c418records.mixins.json"
+    "modid.mixins.json"
   ],
 
   "depends": {
